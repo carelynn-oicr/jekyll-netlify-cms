@@ -1,0 +1,394 @@
+/****************************/
+/* UMS.css               */
+/* - Admin Dashboard Specific CSS */
+/****************************/
+
+/* fix -------------------------------------------------- */
+.navbar-collapse hr {
+    margin-bottom: 5px !important;
+}
+/* typography-------------------------------------------- */
+
+/* Search Bar-------------------------------------------- */
+.webdev-search {
+    width: 100%;
+}
+.webdev-search input.form-control {
+    padding-top: 2px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    height: auto;
+}
+#mobile-nav > .webdev-search {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.webdev-search input.form-control {
+    padding-left: 40px;
+    margin-left: -40px;
+    background-image: url('/assets/site/images/icon-search.svg');
+    background-size: auto 20px;
+    background-position: 10px;
+    background-repeat: no-repeat;
+    border-color: #d4dcde;
+}
+
+.webdev-search input.form-control::placeholder {
+    color: #ccc;
+}
+
+@media (max-width: 991px) {
+    .webdev-search input.form-control {
+        margin-left: 0;
+    }
+}
+/* Edit button------------------------------------------- */
+#app-git-edit {
+    position: absolute;
+    right: 50px !important;
+    z-index: 1;
+    top: 20%;
+}
+#app-git-edit a {
+    color: #99cc66 !important;
+}
+#app-git-edit .btn-default,
+#app-git-edit a.btn-default:link,
+#app-git-edit a.btn-default:visited {
+    background-color: #fff;
+    background: linear-gradient(#fff, #dbdbdb);
+    border: 1px solid #dbdbdb;
+}
+#app-git-edit .btn-default:hover,
+#app-git-edit a.btn-default:active,
+#app-git-edit a.btn-default:hover {
+    background-color: white;
+    background: linear-gradient(#dbdbdb, #dbdbdb);
+    border-color: #dbdbdb;
+}
+#app-git-edit ul.dropdown-menu {
+    top: 100% !important;
+}
+
+/* Admin pages------------------------------------------- */
+.user-page {
+    margin: 40px 0;
+    background-color: #fff;
+    padding: 50px 30px;
+}
+.user-page a span {
+    color: #0072c6;
+}
+#app-user-service a,
+.user-page a {
+    color: #0072c6;
+}
+#oicr-form-footer a span {
+    text-decoration: underline;
+}
+/* Admin Dashboard */
+.user-page .nav-tabs {
+    border-bottom: 3px solid #ddd;
+}
+.user-page .nav-tabs > li > a {
+    color: #0072c6 !important;
+    background-color: #eff0f4;
+    border-bottom: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    margin-right: 20px;
+}
+.user-page .nav-tabs > li > .open,
+.user-page .nav-tabs > li > a.active,
+.user-page .nav-tabs > li > a:focus,
+.user-page .nav-tabs > li > a:hover,
+.user-page .nav-tabs > li.active > a[role='button'] {
+    color: #60c663 !important;
+    border-top: 4px solid #60c663 !important;
+    background-color: #fff !important;
+    margin-bottom: -3px;
+}
+.user-page .nav-tabs > li > a:hover > .caret,
+.user-page .nav-tabs > li.active > a[role='button'] > .caret {
+    color: #60c663;
+}
+.user-page .nav .open > a,
+.user-page .nav .open > a:focus,
+.user-page .nav .open > a:hover {
+    border-top: 4px solid #60c663;
+    border-right-color: #d5d5d5;
+    border-left-color: #d5d5d5;
+    background-color: #fff;
+}
+@media (min-width: 900px) {
+    .user-page {
+        min-width: 1000px;
+    }
+}
+/* Tables
+/-------------------------------------------------------------- */
+th,
+thead th {
+    font: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-weight: 600;
+    background: #eee;
+    background-color: #eee;
+    border-bottom: 1px solid #cfcfcf;
+}
+th a,
+thead th a {
+    color: black !important;
+}
+tbody th {
+    border-bottom: 1px solid #cfcfcf;
+}
+table td a {
+    color: #0072c6 !important;
+}
+tr.even,
+tr.odd {
+    background-color: transparent;
+}
+tr.even td,
+tr.odd td {
+    background-color: transparent;
+    border: 1px solid #dbdbdb;
+}
+tr.drag td,
+tr.drag-previous td {
+    background-color: #ffd;
+}
+tr td a {
+    text-decoration: underline !important;
+}
+tbody .dropdown .dropdown-menu {
+    min-width: 110px;
+}
+
+.user-page .btn {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 13px;
+    line-height: 28px;
+    border-bottom-width: 3px;
+    padding: 0 14px;
+    width: auto;
+    height: 34px;
+    white-space: nowrap;
+}
+.user-page .btn:hover,
+.user-page a.btn:active,
+.user-page a.btn:focus,
+.user-page a.btn:hover {
+    text-decoration: none;
+    color: #0072c6;
+}
+#oicr-admin-user-list table > thead > tr > th:nth-child(5),
+#oicr-admin-user-list table > thead > tr > th:nth-child(6) {
+    width: 12%;
+}
+/* Bootstrap component: Buttons: Default
+-------------------------------------------------------------- */
+.user-page .btn-default,
+.user-page a.btn-default:link,
+.user-page a.btn-default:visited {
+    background-color: #fff;
+    background: linear-gradient(#fff, #dbdbdb);
+    border: 1px solid #dbdbdb;
+    color: #0072c6;
+}
+.user-page .btn-default:hover,
+.user-page a.btn-default:active,
+.user-page a.btn-default:hover {
+    background-color: white;
+    background: linear-gradient(#dbdbdb, #dbdbdb);
+    border-color: #dbdbdb;
+    color: #0072c6;
+}
+.user-page .btn-default::after {
+    color: #5a8126;
+}
+.user-page .btn-default:hover::after {
+    color: #0072c6;
+}
+.user-page button.btn-default[disabled]:active,
+.user-page button.btn-default[disabled]:focus,
+.user-page button.btn-default[disabled]:hover {
+    background-color: #fff;
+    background: linear-gradient(#dbdbdb, #dbdbdb);
+    border: 1px solid #dbdbdb;
+    color: #0072c6;
+}
+/* Bootstrap component: Buttons: Primary
+-------------------------------------------------------------- */
+.user-page .btn-primary,
+.user-page a.btn-primary:link,
+.user-page a.btn-primary:visited {
+    background-color: #0072c6;
+    border: 1px solid #0072c6;
+    color: #fff;
+}
+.user-page .btn-primary:active,
+.user-page .btn-primary:active:hover,
+.user-page .btn-primary:focus,
+.user-page .btn-primary:hover,
+.user-page a.btn-primary:active,
+.user-page a.btn-primary:active:hover,
+.user-page a.btn-primary:focus,
+.user-page a.btn-primary:hover {
+    background-color: #0087e7;
+    border-color: #0087e7;
+    color: #fff;
+}
+.user-page .btn-primary::after {
+    color: #fff;
+}
+.user-page .btn-primary:hover::after {
+    color: #fff;
+}
+.user-page button.btn-primary[disabled]:active,
+.user-page button.btn-primary[disabled]:focus,
+.user-page button.btn-primary[disabled]:hover {
+    background-color: grey;
+    border-color: grey;
+    color: #fff;
+}
+#oicr-admin-user-list > button.btn.btn-primary {
+    min-width: 150px;
+}
+/* Bootstrap component: Buttons: Info
+-------------------------------------------------------------- */
+.user-page .btn-info,
+.user-page a.btn-info:link,
+.user-page a.btn-info:visited {
+    background-color: #0072c6;
+    border: 1px solid #0072c6;
+    color: #fff;
+}
+.user-page .btn-info:hover,
+.user-page a.btn-info:active,
+.user-page a.btn-info:hover {
+    background-color: #0087e7;
+    border-color: #0087e7;
+    color: #fff;
+}
+.user-page .btn-info::after {
+    color: #fff;
+}
+.user-page .btn-info:hover::after {
+    color: #ffff;
+}
+.user-page .btn-info[disabled]:active,
+.user-page .btn-info[disabled]:focus,
+.user-page .btn-info[disabled]:hover {
+    background-color: #0072c6;
+    border: 1px solid #0072c6;
+    color: #fff;
+}
+.user-page .dropdown-toggle.btn.btn-info {
+    background-color: #fff;
+    background: linear-gradient(#fff, #dbdbdb);
+    border: 1px solid #dbdbdb;
+}
+/* Bootstrap component: Buttons: Inside FORM
+-------------------------------------------------------------- */
+form a.btn,
+form button.btn {
+    vertical-align: middle;
+    white-space: pre-wrap;
+    padding: 0 29px;
+}
+form a.btn::after,
+form button.btn::after {
+    content: '';
+}
+form a.btn.btn-default:link,
+form button.btn.btn-default {
+    padding: 1px 30px 2px;
+}
+form a.btn.btn-default.link-pdf:link {
+    padding-right: 7px;
+    padding-left: 7px;
+}
+form a.btn-default:link,
+form a.btn-default:visited,
+form button.btn-default {
+    color: #5a8126;
+}
+form a.btn-default:active,
+form a.btn-default:hover,
+form button.btn-default:hover {
+    color: #0072c6;
+}
+form a.btn.btn-default::after,
+form button.btn.btn-default::after {
+    color: #5a8126;
+}
+@media (max-width: 479px) {
+    form a.btn,
+    form button.btn {
+        width: 100%;
+    }
+}
+/* Bootstrap Component: Dropdown menu
+-------------------------------------------------------------- */
+.user-page .dropdown-menu {
+    top: 100% !important;
+    left: 0;
+}
+.user-page .dropdown-menu li {
+    margin-bottom: 0;
+}
+.user-page .dropdown-menu li a {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: #0072c6 !important;
+    text-decoration: none !important;
+}
+.user-page .dropdown-menu li .active,
+.user-page .dropdown-menu li a:active,
+.user-page .dropdown-menu li a:focus,
+.user-page .dropdown-menu li a:hover {
+    color: #fff !important;
+    background-color: #0072c6;
+    text-decoration: none;
+}
+.user-page .dropdown-menu > li.divider {
+    margin: 0;
+}
+
+/*  Navbar header: Site login: Logged in (mobile) */
+@media (max-width: 991px) {
+    .logged-in .site-login .btn-group {
+        width: 100%;
+    }
+    .oicr-user-menu {
+        width: 100%;
+    }
+    .oicr-user-menu .btn-default {
+        border-radius: 0;
+        background-color: #fff;
+        border: none;
+        width: 100%;
+        border-bottom: 1px solid #e8e8e8;
+    }
+
+    .oicr-user-menu .btn-default:active,
+    .oicr-user-menu .btn-default:active:hover,
+    .oicr-user-menu .btn-default:focus,
+    .oicr-user-menu .btn-default:hover {
+        color: #0072c6;
+        background-color: #fff;
+        border-bottom: 1px solid #e8e8e8;
+    }
+    .oicr-user-menu .dropdown-menu-right {
+        left: 0 !important;
+        text-align: center;
+    }
+}
+/* IE fix */
+.caret {
+    color: grey;
+    border-top-style: solid;
+}
