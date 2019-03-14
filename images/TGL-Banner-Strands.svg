@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1159px" height="286px" viewBox="0 0 1159 286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Desktop HD Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1160" height="286"></rect>
+    </defs>
+    <g id="Desktop-HD-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="1159" height="286"></rect>
+        <g id="Banner">
+            <g id="Rectangle-4">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#F1F1EF" fill-rule="nonzero" xlink:href="#path-1"></use>
+            </g>
+        </g>
+        <path d="M778.230697,83.5458337 C789.730697,81.8198063 801.230697,80.9567926 812.730697,80.9567926 C824.230697,80.9567926 835.730697,81.8198063 847.230697,83.5458337 L828.892946,269.956793 L814.442007,268.662272 L798.757855,269.956793 L778.230697,83.5458337 Z" id="Rectangle" fill="#82C767" fill-rule="nonzero" transform="translate(812.730697, 175.456793) rotate(54.000000) translate(-812.730697, -175.456793) "></path>
+        <path d="M47.3643881,32.4590426 C53.3643881,31.9384946 59.3643881,31.6782206 65.3643881,31.6782206 C71.3643881,31.6782206 77.3643881,31.9384946 83.3643881,32.4590426 L73.7968658,88.6782206 L66.2572453,88.2878097 L58.0742095,88.6782206 L47.3643881,32.4590426 Z" id="Rectangle-Copy" fill="#000000" fill-rule="nonzero" transform="translate(65.364388, 60.178221) rotate(51.000000) translate(-65.364388, -60.178221) "></path>
+    </g>
+</svg>
