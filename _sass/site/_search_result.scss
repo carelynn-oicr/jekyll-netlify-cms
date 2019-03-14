@@ -1,0 +1,116 @@
+.search-result .banner-title h1 {
+    color: #99cc66;
+}
+.search-result .banner {
+    border: none;
+}
+
+/* Main content */
+.page-search > div.container {
+}
+.container-main h1.title {
+    display: none;
+}
+
+.main-content {
+    position: relative;
+}
+
+.search-result {
+    padding: 40px 30px;
+    background: #fff;
+}
+
+.search-result .input-clear {
+    display: none;
+}
+
+.oicr-search-content {
+    margin: 20px 15px;
+}
+.oicr-search-content .form-control {
+    width: 50%;
+}
+@media only screen and (max-width: 991px) {
+    .oicr-search-content .form-control {
+        border-radius: 5px;
+        width: 100%;
+    }
+}
+.search-result .container #app-git-edit {
+    top: auto !important;
+}
+.page-search section a,
+section a:link {
+    color: #99cc66;
+}
+/* Search filter */
+
+.oicr-search-box-container .input-group {
+    width: 100%;
+}
+@media only screen and (max-width: 1199px) {
+    .oicr-search-filter {
+        margin-top: -20px;
+    }
+}
+.oicr-search-box .input-group-btn > .btn {
+    background-color: #99cc66;
+    color: #fff;
+    border-color: #99cc66;
+    padding: 6px 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.oicr-search-box .input-group-btn > .btn:hover,
+.oicr-search-box .input-group-btn > .btn:active {
+    background-color: #b5d991;
+    border-color: #b5d991;
+}
+
+.oicr-search-results {
+    padding: 20px 0;
+}
+.oicr-search-results-list {
+    padding-left: 15px;
+}
+.oicr-search-results h3 span {
+    color: black;
+    font-size: 16px;
+}
+
+.oicr-search-box {
+    border: 1px solid #dce1e5;
+    padding: 15px;
+    width: 100%;
+}
+#app-search nav {
+    background-color: #fff !important;
+}
+#app-search nav .pagination > .active > a {
+    color: #fff !important;
+}
+
+#app-git-edit {
+    right: 0;
+}
+
+@media screen and (max-width: 479px) {
+    #oicr-ui-core-search .input-group {
+        display: block;
+    }
+
+    #oicr-ui-core-search .input-group input,
+    #oicr-ui-core-search .input-group button {
+        width: 100%;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+
+    #oicr-ui-core-search .input-group .input-group-btn,
+    #oicr-ui-core-search .input-group button {
+        margin-top: 5px;
+    }
+}
